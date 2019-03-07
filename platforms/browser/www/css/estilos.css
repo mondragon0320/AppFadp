@@ -1,0 +1,36 @@
+body,html{
+	height: 100%;
+	
+}
+
+header{
+	background: url(img/foto1.jpeg) center center;
+	background-size:cover;
+	/*height: 200px;*/
+	padding: 5em 5em 5em 5em;
+
+}
+.centrar{
+	text-align: center;
+}
+.contenido{
+	background: rgba(255, 255, 255, 0.4);
+	page-break-after: 2em;
+}
+.fondo{
+	background: url(img/foto3.jpg) center center no-repeat;
+	background-size: cover;
+
+}
+.menu{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 60%;
+}
+.menu li a{
+	color:#fff;
+	font-size: 1.6em;
+	text-transform: capitalize;
+}
